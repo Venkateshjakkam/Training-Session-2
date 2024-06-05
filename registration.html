@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+	<link rel="stylesheet" href="styles.css"></link>
+  </head>
+  <body>
+	<div class="flexdiv">
+	<div class="container">
+	<h1>Register Now</h1>
+	</div>
+    <form>
+	<div class="main">
+      <div class="fullName">
+        <label for="fName">Full Name <span>*</span></label>
+        <input type="text" id="fName" class="regtext" placeholder="Enter Your Full Name..." required/>
+      </div>
+      <div class="username">
+        <label for="uName">Username</label><span>*</span>
+        <input type="text" id="uName"  class="regtext"  required placeholder="Enter User Name..."/>
+      </div>
+      <div class="code">
+        <label for="pass" >Password</label><span>*</span>
+        <input type="password" id="pass"  class="regtext" required placeholder="Enter Password..."/>
+      </div>
+      <div>
+        <label for="cpass">Confirm Password</label><span>*</span>
+        <input type="password" id="cpass"   class="regtext"  required  placeholder="Please Confirm Your Password..."/>
+      </div>
+      <div>
+        <label for="gmail">Email Address </label><span>*</span>
+        <input type="email" id="gmail"  class="regtext" required placeholder="Enter Your EmailId..."/>
+      </div>
+      <div>
+        <label for="pnum">Phone Number </label><span>*</span>
+        <input type="tel" id="pnum"  class="regtext" placeholder="Enter Your Phone Number..." required/>
+      </div>
+      <div>
+        <label for="DOB"> Date of Birth </label><span>*</span>
+        <input type="date" id="DOB" class="regtext" />
+      </div>
+      <div class="gender">
+        <p>Gender</p>
+        <input type="radio" id="gen" name="gender" />
+        <label for="Fgen">Female</label>
+        <input type="radio" id="gen" name="gender" />
+        <label for="Mgen">Male</label>
+        <input type="radio" id="gen" name="gender"/>
+        <label for="Ogen">Other</label>
+      </div>
+      <div class="hobbies">
+        <p>Hobbies</p>
+        <input type="checkbox" id="hobbies1" />
+        <label for="hobbies1">Reading</label>
+        <input type="checkbox" id="hobbies2" />
+        <label for="hobbies2">Traveling</label>
+        <input type="checkbox" id="hobbies3" />
+        <label for="hobbies3">Cooking</label>
+      </div>
+      <div>
+        <input type="file" id="picture" />
+        <label for="picture">Profile Picture</label>
+      </div>
+      <div class="ccode">
+        <label for="Ctry">Select Your Country</label>
+        <select name="Country" id="Ctry">
+          <option value="ind">India</option>
+          <option value="rus">Russia</option>
+          <option value="ADE">Dubai</option>
+          <option value="ir">Iran</option>
+          <option value="npl">Nepal</option>
+          <option value="sa">South Africa</option>
+          <option value="aus">Austerlia</option>
+          <option value="sl">Sri Lanka</option>
+        </select>
+      </div>
+      <div class="bio">
+        <label for="info">Bio</label>
+        <textarea id="info" placeholder="please enter your Bio..."></textarea>
+      </div>
+      <div class="tm" checked>
+        <input type="checkbox" id="tm" />
+        <label for="tm">Agree to Terms and Conditions </label>
+      </div>
+      <div class="btn">
+        <button>Reset</button>
+        <button>Submit</button>
+      </div>
+     
+	</div>
+</form>
+</div>
+  </body>
+</html>

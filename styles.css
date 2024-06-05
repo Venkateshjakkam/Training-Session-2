@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+}
+.container{
+	width:500px;
+	height: 600px;
+	background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)),url(imgBack-2.jpg) no-repeat;
+}
+.container h1  {
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding-top: 300px;
+}
+
+.flexdiv{
+	display: flex;
+}
+.main{
+	width: 700px;
+	height: 700px;
+	display: grid;
+    margin-left:100px;
+	margin-top:25px;
+	grid-template-columns: 43% 43%;
+	grid-template-rows: 10% 10% 10% 10% 10% 10% 10%;
+
+}
+
+.fullName label{
+	display: block;
+}
+.regtext{
+	width: 230px;
+	height: 30px;
+}
+
+
+
+/*////////////////////////////////  gender    /////////////////////////// */
+.gender p {
+margin: 0px;
+}
+
+.hobbies p {
+	margin: 0px;
+}
+.ccode label{
+display: block;
+}
+#Ctry{
+	width: 230px;
+	height: 30px;
+}
+#info{
+	width: 230px;
+	height: 80px;
+}
+span{
+	color: red;
+}
+.tm{
+	display: block;
+}
+.btn {
+	margin-top: auto;
+	position: absolute;
+	bottom: 0px;
+	right:300px;
+
+}
+.btn button{
+	height: 30px;
+	width: 80px;
+	border-radius: 5px;
+	color: white;
+	background-color: rgb(41, 247, 14);
+	border: none;
+}
+.bio label{
+	display: block;
+}
+
+@media  (min-device-width: 600px) {
+
+.container{
+	width:100%;
+	height: 100%;
+	background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)),url(imgBack-2.jpg) no-repeat;
+}
+}
+
