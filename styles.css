@@ -88,19 +88,20 @@ span{
 @media  (max-width: 600px) {
 .flexdiv{
 	min-height: 900px;
+	min-width: 900px;
 	background-color: rgb(49, 48, 48);
-	
 }
 .container{
 	display: none;
 }
 .main{
 	grid-template-columns: 40%;
+	margin-left: 320px;
 }
 h2{
 	display: inline;
 	color: white;
-	margin-left: 250px;
+	margin-left: 300px;
 }
 label{
 	color: beige;
@@ -110,6 +111,20 @@ position: relative;
 bottom:px;
 left: 40px;
 padding-top: 40px;
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
+input[type="tel"]{
+	width: 300px;
+	color: white;
+}
+p{
+	color: white;
+}
+.bio {
+	width: 300px;
 }
 }
 
