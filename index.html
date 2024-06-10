@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.discontainer {
+		display:flex;
+     flex-direction:column;
+			width: 150px;
+			height: 250px;
+			background-color: rgb(117, 67, 2);
+			border: 5px solid black;
+		}
+		div:nth-child(odd) {
+			border-bottom: 3px solid yellow;
+ 			 background: red;
+			 width: 100px;
+			 height: 30px;
+       margin:10px;
+			 
+		}
+		div:nth-child(even) {
+ 			 background: green;
+			 width: 100px;
+			 height: 30px;
+			 border-bottom: 3px solid greenyellow;
+       margin:10px;
+		}
+    div:last-child{
+      border:none;
+    }
+	</style>
+</head>
+<body>
+	<section class="discontainer">
+		<div>1</div>
+		<div>2</div>
+		
+		<div>3</div>
+	
+		<div>4</div>
+	</section>
+</body>
+</html>
