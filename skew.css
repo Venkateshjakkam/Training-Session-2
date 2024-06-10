@@ -1,0 +1,19 @@
+div{
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+	color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	/* transform: rotate(30deg);
+	transform: rotateX(30turn); */
+	/* transform: scale(1.5);
+	transform: scaleY(1.5); */
+	/* transform: translate(-30px);
+	transform: translateZ(40px); */
+	/* transform: skew(90deg,30deg);
+	transform: skewX(40deg); */
+	transform: skew(90deg,30deg);
+}
