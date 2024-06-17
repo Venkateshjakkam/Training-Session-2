@@ -12,13 +12,14 @@
   animation: left-to-right 1s ease-in forwards infinite alternate 3s;
 }
 
-.parent:hover .child {
+ /* .parent:hover .child { */
   /* background-color: green; */
   /* transform: translateX(100%); */
   /* animation: left-to-right 2s ease-in forwards; */
   /* animation: left-to-right 1s ease-in forwards infinite alternate 3s; */
   /* animation-play-state:paused; */
-}
+/* } */
+ 
 
 @keyframes left-to-right {
   0% {
